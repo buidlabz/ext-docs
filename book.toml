@@ -6,3 +6,12 @@ language = "en"
 multilingual = false
 src = "src"
 text-direction= "ltr"
+
+[output.html]
+default-theme = "dark"
+preferred-dark-theme = "navy"
+additional-css = ["general.css"]
+additional-js = ["custom.js"]
+site-url = "https://buidlabz.github.io/ext-docs/"
+git-repository-url = "https://github.com/buidlabz/ext-docs"
+git-repository-icon = "fa-github"
